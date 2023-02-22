@@ -1,3 +1,4 @@
+//Функция сумирования всех элементов массива
 
 const myArr = [2, 3, 4, 5, 6] 
   total = 0;
@@ -5,6 +6,8 @@ const myArr = [2, 3, 4, 5, 6]
     total += myArr[i];
   }
 console.log(total)
+
+//Функция перемножения всех элементов массива 
 
 function multyplyAll(arr) {
   let product = 1 ;
@@ -21,35 +24,35 @@ console.log(product)
 //Функция рекурсии
 
 
-// function summ(arr, n) {
-//   if (n <=0) {
-//     return 0;
+function summ(arr, n) {
+  if (n <=0) {
+    return 0;
     
-//   } else { 
-//     return summ(arr, n-1) + arr[n-1];
-//   }
-// }
+  } else { 
+    return summ(arr, n-1) + arr[n-1];
+  }
+}
 
-// console.log(summ(3,2))
+console.log(summ(3,2))
 
 
-//Функция которая преобразовывает рандомное число в целое с заданным минимумом и максимумом
+//Функция  преобразованяи рандомного числа в целое с заданным минимумом и максимумом
 
-// function randomRange(myMax, myMin) {
-//   return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
-// }
-// console.log(randomRange(15, 10))
+function randomRange(myMax, myMin) {
+  return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
+}
+console.log(randomRange(15, 10));
 
-//Функция которая преобразовывает строчку в цифры  (Use the parseInt Function)
+// Функция которая преобразовывает строчку в цифры  (Use the parseInt Function)
 
-// function convertToInteger(str) {
+function convertToInteger(str) {
 
-//   return parseInt(str);
-//   }
+  return parseInt(str);
+  }
   
-//   convertToInteger("56");
+  convertToInteger("56");
 
-//Функция которая принимает на вход число, возвращает пустой масив или обратный счет от этого числа 
+//Функция которая принимает на вход число, возвращает пустой масив и обратный счет от этого числа 
  
 function countdown(n){
   if (n < 1) {
