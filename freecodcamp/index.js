@@ -6,17 +6,17 @@ const myArr = [2, 3, 4, 5, 6]
   }
 console.log(total)
 
-// function multyplyAll(arr) {
-//   let product = 1 ;
-//   for (let i = 0; i < arr.length; i++) {
-//     for (let j = 0; j < arr[i].length; j++) {
-//       product *= arr[i][j];
-//       }
-//     }
-//     return product
-// }
-// let product =  multyplyAll([[1,2,3],[2,3,4],[5,6,]])
-// console.log(product)
+function multyplyAll(arr) {
+  let product = 1 ;
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      product *= arr[i][j];
+      }
+    }
+    return product
+}
+let product =  multyplyAll([[1,2,3],[2,3,4],[5,6,]])
+console.log(product)
 
 //Функция рекурсии
 
