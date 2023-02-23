@@ -21,10 +21,22 @@
 // }
 // console.log (papework (8, 6))
 
-//фунцкия которая возвращает приветствие с именем:
+// //фунцкия которая возвращает приветствие с именем:
 
-function greet(name) {
-    return `Hello, ${name} do you know that you are pidor?`
+// function greet(name) {
+//     return `Hello, ${name} do you know that you are pidor?`
+// }
+
+// console.log(greet("Dima"));
+
+
+//волки в овечьей шкуре 
+function warnTheSheep(queue) {
+    
 }
 
-console.log(greet("Dima"));
+
+
+
+
+
