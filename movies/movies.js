@@ -19,6 +19,24 @@
     }
 */
 
+
+/* Практическое задание № 2
+1. Автоматизировать вопросы пользователю про фильмы при помощи цикла
+
+2. Сделать так, чтобы пользователь не мог оставить ответ в виде пустой 
+строки, отменить ответ или ввести название фильма длиннее, чем 50 символов.
+Если это происходит - возвращаем пользователя к вопросам опять. 
+(К любой строке можно обратиться как str.length - и получить ее длину)
+
+3. При помощи условий проверить personalMovieDB.count, если он меньше 10 - вывести
+сообщение  "Просмотрено довольно мало фмльсов" , если от 10 до 30 - 
+"Вы классический зритель, а если больше - "Вы киноман". 
+А если не подошло ни к одному варианту - "Произошла ошибка"
+
+4. Потренироваться и переписать цикл еще двумя способами
+*/
+
+
 const numberOfFilms = prompt("How many movies have you watch?", " ");
 
 const personaMovieDB = {
@@ -29,13 +47,27 @@ const personaMovieDB = {
     privat: false 
 }
 
-const a = prompt("What the last movie did you watch?", "");
-const b = prompt("How would you rate it?", "");
-const c = prompt("What the last movie did you watch?", "");
-const d = prompt("How would you rate it?", "");
+for (let i = 0; i < 2; i++) {
+    const a = prompt("What the last movie did you watch?", "");
+    const b = prompt("How would you rate it?", "");
+    
+    if (a != null && a != "" && a.length < 50) {
+        console.log("done")
+    } else { 
+        console.log("error");
+        i--
+    }
 
-personaMovieDB.movies[a] = b;
-personaMovieDB.movies[d] = c;
+    if (personaMovieDB.count < 10) {
+        console.log("A few movies just watched");
+    } else if (personaMovieDB.count > 10 || personaMovieDB < 30) {
+        console.log("You are realy movies fanat!")
+    } else { 
+        console.log("Error")
+    }
+    personaMovieDB.movies[a] = b;
+}
+
 
 console.log(personaMovieDB);
- 
+
