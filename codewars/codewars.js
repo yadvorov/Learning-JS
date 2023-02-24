@@ -30,11 +30,28 @@
 // console.log(greet("Dima"));
 
 
-//волки в овечьей шкуре 
-function warnTheSheep(queue) {
-    
-}
+//волк, уходи!
 
+
+
+// function warnTheSheep(queue) {
+//     for (let index = queue.length -1; index >= 0; index--) {
+//         let element = queue[index]
+//         if (element == "wolf" && index == queue.length -1) {
+//             return "Pls go away and stop eating my sheep";
+//         } 
+        
+//         if (element == "wolf" && index !== queue.length -1) {
+//             let number = queue.length - index
+//             return `Oi! Sheep number ${number}! You are about to be eaten by a wolf!`;
+//         }
+//     }
+// }
+
+// let arr = ["sheep",  "sheep", "sheep","wolf", "sheep" ]
+// console.clear()
+
+// console.log(warnTheSheep(arr));
 
 
 
