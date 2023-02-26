@@ -144,29 +144,94 @@
 
 // console.log(result)
 
-//  array[i] = [1 ,2 ,3] - обращение по индексу
-//         i = 0   1  2  - индекс
+// let arr = [1, 2, 3, 4];
+// console.log(arr[0]);
+// alert(arr)
 
-// function sanek(string, number) {
-
-//     if (number <= 0 || number > string.length || typeof string != "string") {
-//         return "Uncorrect!"
-//     } 
-    
-//     let arr = string.split("");
-//     for (let i = 0; i < arr.length; i++) {
-//     if (i === number - 1) {
-//         arr[i] = arr[i].toUpperCase();
-//     } 
-//     } 
-//     return arr.join("")
-// }   
-// console.log(sanek("sanek", 2));
+// let arr1 = ['olya', 'yaroslav', 'kotik']
+// console.log(arr1);
+// alert(arr1)
 
 
+// let arr = [1, 2, 3, 4];
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+// console.log(arr[3]);
+
+// let arr = [1, 2, 3, 4];
+// alert(arr[0] + arr[1] + arr[2] + arr[3])
+
+// let arr = ['a', 'b', 'c', 'd'];
+
+// arr[0] += 1;
+// arr[1] += 2;
+// arr[2] += 3;
+// arr[3] += 4;
+
+// console.log(arr)
+
+// let arr = ['a', 'b', 'c', 'd'];
+
+// arr[0] += '!';
+// arr[1] += '!';
+// arr[2] += '!';
+// arr[3] += '!';
+
+// console.log(arr)
 
 
+// let arr = [1, 2, 3, 4];
+// arr[0] += 3;
+// arr[1] += 3;
+// arr[2] += 3;
+// arr[3] += 3;
+// console.log(arr)
+
+// let arr = [1, 2, 3, 4];
+
+// arr[0]++
+// arr[1]++
+// arr[2]++
+// arr[3]++
+
+// console.log(arr)
+
+// let arr = [];
+// arr[0] = 1;
+// arr[1] = 2;
+// arr[2] = 3;
+// arr[3] = 4;
+// arr[4] = 5;
+
+// console.log(arr)
+
+// let arr = [];
+// arr[3] = 'd'
+// arr[8] = 'l'
+
+// console.log(arr)
+
+// let arr = [1, 2 ,3]
+
+// arr.push(4)
+// arr.push(5)
+// arr.push(6)
+// console.log(arr)s
 
 
+// let arr1 = [4, 5, 6]
+// let index1 = 0
+// let index2 = 1
+
+// console.log(arr1[index1] + arr1[index2])
 
 
+// // let arr = ['a' , 'b' , 'c' , 'd' , 'e']
+
+// // delete arr[1];
+// // delete arr[2];
+// // console.log(arr)
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[arr.length]);
